@@ -1,0 +1,6 @@
+{
+
+"subject" : "Server Not Sending Emails",
+"content" : "The server is not sending emails. Please check the SMTP settings in settings.py or see if your mail server is working properly"
+
+}

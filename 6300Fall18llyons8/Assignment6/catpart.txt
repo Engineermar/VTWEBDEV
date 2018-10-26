@@ -1,0 +1,46 @@
+#	Filename
+	Presence of a file corresponding to the name:
+		Not present.		[error]	
+		Present.			[property filepresent]
+# 	File
+	Size:
+		Empty.				[error][if filepresent]
+		Not Empty.			[if filepresent]
+	
+#	Arguments
+	Number of Arguments:
+		None.				[single]
+		Many.						[property manyarg]
+	argument c in options:
+		Present.					[if manyarg][property argcpresent]
+		Not Present.				
+	value for argument c in options:
+		Present.					[if argcpresent][property argcvalexists]
+		Not Present.				[error][if argcpresent]
+	datatype for value of argument c:
+		Integer.					[if argcvalexists][property argcvalint]
+		Non Integer.				[error][if argcvalexists]
+	Integer value for argument c:
+		0.							[if argcvalint]
+		>26.						[if argcvalint]
+		<26.						[if argcvalint]
+		<0.							[if argcvalint]
+		MaxInt.						[single][if argcvalint]
+	argument d in options:
+		Present.					[if manyarg][property argdpresent]
+		Not Present.				
+	value for argument d in options:
+		Present.					[if argdpresent][property argdvalexists]
+		Not Present.				[error][if argdpresent]
+	value for argument d:
+		Alpha Numeric Characters.				[if argdvalexists]
+		Special Characters.						[if argdvalexists]
+		only white space.						[if argdvalexists]
+		All characters including white space.	[if argdvalexists]
+	argument r in options:
+		Present.					[if manyarg][property argrpresent]
+		Not Present.				[if (argcpresent || argdpresent)]
+	value for argument r in options:
+		Present.					[error][if argrpresent]
+		Not Present.				[if argrpresent]
+

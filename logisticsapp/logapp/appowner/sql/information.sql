@@ -1,0 +1,2 @@
+INSERT INTO appowner_information (code,name,productname,tele,fax,www,email,address,history,createdon,updatedon,idcode) VALUES
+(1005,'Law Reform Comission','Logistics Management System','250788963267','078899898','www.lrc.net','info@lrc.rw','Ministry of Justice, Simba Kimihurura','About RLRC','2017-10-05 00:00:00.000000','2017-10-05 00:00:00.000000','LRC');

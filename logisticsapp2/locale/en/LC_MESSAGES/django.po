@@ -1,0 +1,1333 @@
+# English Language Translation for Rwand Law Reform Comission
+# Copyright (C) 2017. RLRC
+#
+# FIRST AUTHOR: Sium, Kiflemariam <sium@go.rw>/<kmsium@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: kmsium@gmail.com\n"
+"POT-Creation-Date: 2017-09-25 13:45-0200\n"
+"PO-Revision-Date: 2018-05-11 09:16-0100\n"
+"Last-Translator: Kiflemariam Sium <kmsium@gmail.com>\n"
+"Language-Team: English <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+
+msgid "NotifyKindHRChanged"
+msgstr "HR Structure Updated"
+
+msgid "NotifyKindCataglogChanged"
+msgstr "Item Catalog Updated"
+
+msgid "NotifyKindSupplierKindChanged"
+msgstr "Supplier Kinds Updated"
+
+msgid "StockedOutItemQanityChanged"
+msgstr "The quantity of the stockedout item was changed successfully"
+
+msgid "ErrorStockedOutItemQuantityEditUnchanged"
+msgstr "The quantity was not changed"
+
+msgid "StockOutItemStatusUpdated"
+msgstr "The status of the stockedout item was updated successfully"
+
+msgid "ErrorStockedOutItemNotFound"
+msgstr "The stockedout item was not found in the system"
+
+msgid "ErrorStockedOutItemEditQuantityError"
+msgstr "Quantity must be above zero"
+
+msgid "StockOutReverseOk"
+msgstr "The stockout was reversed successfully"
+
+msgid "StockOutReverseItemOk"
+msgstr "The stocked item was reversed successfully"
+
+msgid "ErrorReverseGivenItemsAlreadyReturned"
+msgstr "The stockout could not be reversed because at least one item is reported to have been returned"
+
+msgid "ErrorReverseGivenItemsAlreadyTransfered"
+msgstr "The stockout could not be reversed because at least one item is reported to have been transfered"
+
+msgid "ErrorGivenNotFound"
+msgstr "The stockout was not found"
+
+msgid "GivenReverseInvalidTooOld"
+msgstr "The stockout operation is too old to be edited"
+
+msgid "ErrorTransferedItemNotFound"
+msgstr "Transfered item not found"
+
+msgid "TransferedItemStatusUpdated"
+msgstr "The status of the transfered item was updated successfully"
+
+
+msgid "ErrorTransferNotFound"
+msgstr "The transfer could not be found"
+
+msgid "TransferReverseOk"
+msgstr "The transfer was reserved back successfully"
+
+msgid "TransferReverseItemOk"
+msgstr "The transfered item was reversed back successfully"
+
+msgid "TransferReverseInvalidTooOld"
+msgstr "The transfer is too old to be modified"
+
+msgid "PositionDeletedSuccessfully"
+msgstr "The position was deleted successfully"
+
+msgid "ErrorReturnedItemNotFound"
+msgstr "The returned item you want does not exist in the system"
+
+msgid "ErrorInvalidStatus"
+msgstr "The status is invalid"
+
+msgid "ReturnedItemStatusUpdated"
+msgstr "The return status of the returned item was changed successfully"
+
+msgid "ErrorReverseReturnItemsAlreadyGiven"
+msgstr "The return could not be reversed as some items are known to be with another entity"
+
+msgid "ReturnReverseItemOk"
+msgstr "The returned item was reversed back successfully"
+
+msgid "ErrorDeletePositionMissing"
+msgstr "The position you wanted to delete does not exist"
+
+msgid "ErrorMergeProductDestMissing"
+msgstr "The destination product could not be found"
+
+msgid "MergedProducts"
+msgstr "The products were merged with %(dest)s product successfully"
+
+msgid "ErrorMoveProductsNoProducts"
+msgstr "Please select products first"
+
+msgid "ProductsMovedToCategory"
+msgstr "The selected products were successfully moved to %(cat)s category"
+
+msgid "ErrorMergeCategorySame"
+msgstr "The source and destination categories cannot be the same"
+
+msgid "ErrorMergeCategorySourceMissing"
+msgstr "The source category could not be found"
+
+msgid "ErrorMergeCategoryDestMissing"
+msgstr "The destination category could not be found"
+
+msgid "MergedCategory"
+msgstr "The category %(source)s has been merged with %(dest)s successfully"
+
+msgid "RptDepreciationMonthYearBased"
+msgstr "Depreciatation Report: Month Year"
+
+msgid "RptDepreciationAlready"
+msgstr "Already Depreciated Items"
+
+msgid "RptDeprecationNotYet"
+msgstr "Not Depreciated Items"
+
+msgid "ErrorInventoryDepreciationeRateInvalid"
+msgstr "Depreciation rate must be between 0 and 1, with maximum 2 decimal points"
+
+msgid "EmailSubjectExpiryItemsAlert"
+msgstr "Alert: Items to Expire"
+
+msgid "EmailSubjectLowStockItemsAlert"
+msgstr "Alert: Store Items getting Low"
+
+msgid "Carton"
+msgstr "Carton"
+
+msgid "ErrorDividePlaceZeroNotAllowed"
+msgstr "Quantity must be above zero"
+
+msgid "ErrorDividePlaceQuantityCantExceed"
+msgstr "The quantity cannot exceed the existing quantity in the store, which is %(max)f"
+
+msgid "ErrorDividePlaceSameQuantity"
+msgstr "Please move to store feature below since you specified same quantity as in the store"
+
+msgid "ErrorDestinationStoreIsInvalid"
+msgstr "The destination store you have selected is invalid"
+
+msgid "ErrorDividePlace"
+msgstr "There was an error when diving and placing the items"
+
+msgid "DividePlaceOk"
+msgstr "The item was placed successfully"
+
+msgid "ErrorMovingItemsInvalidItems"
+msgstr "Please check valid items you want to move around your stores"
+
+msgid "ItemsMovedToNewStoreSuccessfully"
+msgstr "The items were moved successfully. However, always check if all items checked were infact moved"
+
+msgid "StoreItemsMovedOK"
+msgstr "All items were moved from source to destination store"
+
+msgid "ErrorRptMonthlyInvalidMonthYear"
+msgstr "Please provide valid month and year to generate monthly in store reports"
+
+msgid "ErrorHROfficeNameTooShort"
+msgstr "Office name must be %(min)s characters long"
+
+msgid "ErrorEmailingUserPassword"
+msgstr "There was an error emailing the user his/her password. Please make sure your email configuration is correct"
+
+msgid "RequestMadeOkErrorEmailing"
+msgstr "Your request was processed successfully but there was an error notifying the logistics office about your request. Please inform them directly that you have made a request waiting to be processed"
+
+msgid "ErrorActivationSendingEmail"
+msgstr "There was an error sending you the activation link. Try again in a little while; if it refuses, please contact the IT administrator that there is a problem with emailing"
+
+msgid "ErrorForgotPasswordEmail"
+msgstr "Sorry but the server is having a problem sending you the password reset link. Try again in a little while; if it refuses, please contact the IT administrator that there is a problem with emailing"
+
+msgid "ErrorNoAccount"
+msgstr "Sorry, I could not found your account"
+
+msgid "WelcomePwdResetLinkSent"
+msgstr "A password reset link has been sent to your email address"
+
+msgid "ReturnReverseInvalidTooOld"
+msgstr "The returend items could not be reversed because the return took place long ago"
+
+msgid "ErrorReturnNotFound"
+msgstr "The returend items could not be found"
+
+msgid "ErrorBadLoginDetails"
+msgstr "Incorrect login details. Please check the email and password you have entered"
+
+msgid "ReturnReverseOk"
+msgstr "The return action was reversed back"
+
+msgid "Configuration"
+msgstr "Configuration"
+
+msgid "ErrorDefaultUserRoleMissing"
+msgstr "Default user role was not found"
+
+msgid "UserRegisteredEmailNotSent"
+msgstr "The user was registered successfully but there was an error sending email containing password; please check your email settings are working fine. Reset the users password, email to him/her and activate it now"
+
+msgid "SecurityPasswordUpdateOk"
+msgstr "Your password was changed successfully"
+
+msgid "PublishDone"
+msgstr "Your data was refreshed successfully. I will auto reload now to reflect the changes"
+
+msgid "ProfileUpdateOk"
+msgstr "Your profile information was updated successfully"
+
+msgid "ErrorProfileUpdate"
+msgstr "There was an error updating your profile. Please try again"
+
+msgid "ErrorBlockedUser"
+msgstr "The administrator has currently blocked your account"
+
+msgid "ErrorSecurityCurrentPwdEmpty"
+msgstr "Enter current password"
+
+msgid "ErrorSecurityCurrentPwdBad"
+msgstr "Current password is incorrect"
+
+msgid "ErrorSecurityNewPwdEmpty"
+msgstr "Enter new password"
+
+msgid "ErrorAccountActivationCodeMissing"
+msgstr "The activation link could not be found. Please request a new one"
+
+msgid "PasswordResetOk"
+msgstr "Your password was changed successfully"
+
+msgid "SoftTransferCompletedOk"
+msgstr "The soft transfer was completed successfully"
+
+msgid "ErrorSecurityPwdMismatch"
+msgstr "The passwords you entered do not match"
+
+msgid "ErrorSecurityPwdLength"
+msgstr "Password length should be between 6 and 16 characters long"
+
+msgid "ErrorPwdResetLinkExpired"
+msgstr "The link is expired. Please generate a new forgot password link"
+
+msgid "ErrorBadPwdResetLink"
+msgstr "The link you followed is incorrect"
+
+msgid "EmailRegisteredSubject"
+msgstr "Confirm Your Account with RLRC Logistics System"
+
+msgid "ErrorEmpRegisterRLRCIDExists"
+msgstr "The RLRC ID of the employee exists already"
+
+msgid "ErrorAccountOldActivationCode"
+msgstr "The activation code is old; generate a new one"
+
+msgid "AccountActivated"
+msgstr "The account has been activated successfully"
+
+msgid "ErrorAccountActivationMissingEmail"
+msgstr "The account could not be found; check the email you entered"
+
+msgid "ActivationLinkSent"
+msgstr "The activation link has been sent to your email"
+
+msgid "ErrorAlreadyActivated"
+msgstr "The account is already active"
+
+msgid "ErrorReportInvalidProduct"
+msgstr "The product could not be found"
+
+msgid "SupplierDeleteOk"
+msgstr "The supplier was deleted successfully"
+
+msgid "ErrorLogisticSupplierMissing"
+msgstr "The supplier could not be found"
+
+msgid "SupplierUpdateOk"
+msgstr "Supplier information was updated successfully"
+
+msgid "ErrorSupplierDeleteInvoiceExists"
+msgstr "The supplier could not be deleted as it is referenced in some acquistions"
+
+msgid "SupplierKindUpdateOk"
+msgstr "The supplier kind was updated successfully"
+
+msgid "ErrorLogisiticDeleteSupplierKindSuppliersExist"
+msgstr "The supplier kind could not be deleted as there suppliers who belong to it"
+
+msgid "SupplierKindDeleteOk"
+msgstr "The supplier kind was deleted successfully"
+
+msgid "ErrorLogisticInvalidSupplierKind"
+msgstr "The supplier you select could not be found"
+
+msgid "ErrorLogisticSupplierKindNameTooShort"
+msgstr "Kind of supplier must be at least %(min)s long characters"
+
+msgid "ErrorLogisticSupplierKindExists"
+msgstr "There is already a supplier kind with the name you entered"
+
+msgid "SupplierKindAddOk"
+msgstr "The supplier kind was added successfully"
+
+msgid "ErrorSupplierKindAddError"
+msgstr "There was an error when adding the kind of supplier"
+
+msgid "InStore"
+msgstr "In Store"
+
+msgid "InUse"
+msgstr "In Use"
+
+msgid "Undetermined"
+msgstr "Undetermined"
+
+msgid "ErrorInventoryMinValueIsZero"
+msgstr "Min value must be greater than zero"
+
+msgid "ErrorInventoryMinValueIsLarger"
+msgstr "Minimum value must be smaller than maximum value"
+
+msgid "TipRptExpiryDateInvalid"
+msgstr "No expiry date was specified; thus items that expire in %(days)s days are shown"
+
+msgid "ErrorTransferSameEntities"
+msgstr "The source and destination are the same"
+
+msgid "ErrorInvalidEntity"
+msgstr "Please select a valid entity you want to do logistics operation with"
+
+msgid "ErrorTransferUnknownEntity"
+msgstr "The entity transfering or receiving the items is invalid"
+
+msgid "ErrorReturnUnknownReceipentType"
+msgstr "The entity returning the items is not recognized in the system"
+
+msgid "ErrorOutgoingUnknownReceipentType"
+msgstr "You must specify the correct receipent"
+
+msgid "ErrorInvalidActiveState"
+msgstr "You must specify a valid active state"
+
+msgid "ErrorRequestUnknownReceipentType"
+msgstr "Your identity could not be identified; request cancelled"
+
+msgid "ErrorReportLostItemAsFound"
+msgstr "There was an error when reporting the lost item as found"
+
+msgid "LostItemReturnedToStore"
+msgstr "The lost item was put back to the selected store"
+
+msgid "ItemFoundReturnToOwner"
+msgstr "The item was reported lost from an office/employee; it is now put back in their credit. Please hand it over physically to the person who returned it as lost"
+
+msgid "PositionUpdateOk"
+msgstr "The position was updated successfully"
+
+msgid "PositionUpdateError"
+msgstr "There was an error when updating information of the position"
+
+msgid "ErrorInactiveStoreCantPutItems"
+msgstr "Items cannot be placed in inactive stores"
+
+msgid "ErrorReportItemLostNotLost"
+msgstr "Only items marked as lost can be reported as found"
+
+msgid "ErrorReportItemLostAlreadyLost"
+msgstr "The item is already reported as lost. If it is found, report its new status please"
+
+msgid "StatusUpdatedOk"
+msgstr "The status of the item was updated successfully"
+
+msgid "ErrorStatusChangeInvalidStatus"
+msgstr "The status you specified is invalid"
+
+msgid "ServiceDeleteOk"
+msgstr "The service was deleted successfully"
+
+msgid "ServiceDeleteFailed"
+msgstr "There was an error when deleting the service"
+
+msgid "ErrorServiceUpdateFailed"
+msgstr "There was an error editing the service information"
+
+msgid "ServiceUpdateOk"
+msgstr "The service information was updated successfully"
+
+msgid "ServiceAddOk"
+msgstr "The service information was added successfully"
+
+msgid "ErrorServiceAddFailed"
+msgstr "There was an error when adding the service information of the item"
+
+msgid "ErrorServiceEditNotFound"
+msgstr "The service information you want to edit does not exist"
+
+msgid "ErrorServiceDate"
+msgstr "The date of service must be provided in valid format"
+
+msgid "ErrorServiceDateInvalid"
+msgstr "The date supplied is invalid"
+
+msgid "ErrorServiceDateOnFuture"
+msgstr "Service date cannot be in the future"
+
+msgid "ErrorServiceMonetaryValueInvalid"
+msgstr "The monetary value must be zero or higher"
+
+msgid "ErrorServiceManPowerValueInvalid"
+msgstr "The manpower value must be zero or higher"
+
+msgid "ErrorServiceStatusInvalid"
+msgstr "If provided, status of a serviced item can only be %(allowed_status)s"
+
+msgid "ErrorItemNotFound"
+msgstr "The item was not found"
+
+msgid "ErrorServiceInvalidAction"
+msgstr "You must select a valid action from the services"
+
+msgid "ErrorServiceItemIsLost"
+msgstr "The item could not be serviced as it is currently lost"
+
+msgid "ErrorInventoryDepreciationeMethodInvalid"
+msgstr "Specify a valid depreciation method"
+
+msgid "ErrorInventoryDepreciationeLifeTimeInvalid"
+msgstr "The product lifetime must be a valid positive integer or 0"
+
+msgid "ErrorQuantityMisMatch"
+msgstr "The quantity changes you requested would cause incorrect data. A total of %(existing)s items were dispatched and you are stating the arrived items were %(new)s"
+
+msgid "ItemInfoUpdateOk"
+msgstr "The item information was updated successfully"
+
+msgid "ErrorQuantityMustBeProvided"
+msgstr "Quantity must be prvodided"
+
+msgid "InvoiceInformationUpdateOK"
+msgstr "The invoice information was updated successfully"
+
+msgid "ErrorIncomigInvoiceMissing"
+msgstr "The incoming invoice could not be found"
+
+msgid "ErrorUneditableInvoice"
+msgstr "The invoice is too old to be edited"
+
+msgid "ItemDeletedSucessfully"
+msgstr "The item was deleted successfully"
+
+msgid "ErrorDeleteIncomingOutgoingExists"
+msgstr "The item could not be deleted because it has transaction history"
+
+msgid "IncomingItemAdded"
+msgstr "Incoming Item Added Successfully"
+
+msgid "ErrorIncomingItemsInvalidInvoice"
+msgstr "Either follow a valid invoice or start anew"
+
+msgid "ErrorIncomingItemNotFound"
+msgstr "The item could not be found; please try again"
+
+msgid "ErrorItemMissing"
+msgstr "The item cound not be found"
+
+msgid "ReportFileOK"
+msgstr "Your report file is ready for download"
+
+msgid "ReportInventoryReport"
+msgstr "Inventory Report"
+
+msgid "ErrorTransferInvoiceAddError"
+msgstr "There was an error transfering the items"
+
+msgid "TransferInvoiceAddOk"
+msgstr "The transfere was a success"
+
+msgid "ErrorTransferInvoiceNoItems"
+msgstr "There are no items to be transfered"
+
+msgid "ErrorTransferInvalidGiver"
+msgstr "The employee giving the items is invalid"
+
+msgid "ErrorTransferInactivePosition"
+msgstr "The employee who will get the items is inactive"
+
+msgid "Direct"
+msgstr "Direct"
+
+msgid "Transfer"
+msgstr "Transfer"
+
+msgid "Transfered"
+msgstr "Transfered"
+
+msgid "ReturnInvoiceAddOk"
+msgstr "The items were returned successfully"
+
+msgid "ErrorReturnInvoiceAddError"
+msgstr "There was an error returning the items; nothing was returned"
+
+msgid "ErrorReturnInvalidStore"
+msgstr "The store you wanted to return the items to is invalid or inactive"
+
+msgid "ErrorReturnItemInvoiceProcessedOnFuture"
+msgstr "The items cannot be returned in the future"
+
+msgid "ErrorReturnInvoiceProcessedOnInvalid"
+msgstr "The return date is missing or invalid"
+
+msgid "ErrorReturnInvoiceExistingInternalReference"
+msgstr "There is already a return transaction under the reference you entered"
+
+msgid "ErroReturnInvoiceNoItems"
+msgstr "You didn't specify items to return"
+
+msgid "ErrorInvalidEmployee"
+msgstr "The employee ID passed is incorrect"
+
+msgid "ErrorEmployementPositionNotFound"
+msgstr "The position was not found"
+
+msgid "ErrorStoreBrowseSearchInvalid"
+msgstr "You must specify category or product to browse"
+
+msgid "RequestRevokedSuccessfully"
+msgstr "Your request was revoked successfully"
+
+msgid "ErrorRequestRevokeProcessedAlready"
+msgstr "The request was processed and cannot be revoked"
+
+msgid "ErrorUserInvalidSearchMethod"
+msgstr "Please select a valid search option"
+
+msgid "OutgoingInvoiceAddOk"
+msgstr "The items were successfully given"
+
+msgid "RequestMadeOk"
+msgstr "Your request for items was sent sucessfully"
+
+msgid "ErrorRequestsFormMissing"
+msgstr "The request form could not be found"
+
+msgid "ErrorMakingRequest"
+msgstr "There was an error making a request. Please try again"
+
+msgid "ErrorStockOutAlreadyProcessedRequest"
+msgstr "The request was already processed"
+
+msgid "ErrorOutgoingInvoiceAddError"
+msgstr "There was an error when giving the items"
+
+msgid "ErrorOutgoingProtectedStore"
+msgstr "The %(item_name)s is in protected store %(store)s"
+
+msgid "ErrorOutgoingInvalidRecepient"
+msgstr "Provide a valid receipent"
+
+msgid "ErrorOutgoingInactiveEmployee"
+msgstr "The employee is currently inactive in the system"
+
+msgid "ErrorOutgoingInactivePosition"
+msgstr "The position is not active"
+
+msgid "ErrorOutgoingCurrentQuantityUndetermined"
+msgstr "I failed to determine the quantity of %(item_name)s"
+
+msgid "ErrorOutgoingQuantityBad"
+msgstr "The quantity you have specified for %(item_name)s is invalid"
+
+msgid "ErrorOutgoingNonConsumableHigherThanOne"
+msgstr "The %(item_name)s is non-consumable and so, quantity ordered must be 1 only"
+
+msgid "ErrorOutgoingConsumableHigherThanInStore"
+msgstr "You demanded %(demanded)s of %(item_name)s but there are only %(instore)s in store"
+
+msgid "ErrorOutgoingInactiveHead"
+msgstr "The head where employee works is inactive"
+
+msgid "ErrorOutgoingInactiveDepartment"
+msgstr "The department where employee works is inactive"
+
+msgid "ErrorOutgoingInactiveUnit"
+msgstr "The unit where the employee works is inactive"
+
+msgid "ErrorOutgoingInactiveJob"
+msgstr "The profession of the employee is inactive"
+
+msgid "ErrorOutgoingInactiveDivision"
+msgstr "The division where the employee works is inactive"
+
+msgid "ErrorOutgoingInvoiceProcessedOnFuture"
+msgstr "Date must be today or in the past"
+
+msgid "ErrorOutgoingInvoiceProcessedOnInvalid"
+msgstr "Please provide a valid date"
+
+msgid "ErrorOutgoingInvoiceExistingInternalReference"
+msgstr "The reference code is already in use"
+
+msgid "ErrorOutgoingInvoiceNoItems"
+msgstr "You must speciy the items to be given"
+
+msgid "ErrorRequestInvoiceNoItems"
+msgstr "You must specify the products you want to request"
+
+msgid "ErrorRequestInvalidProduct"
+msgstr "It appears one of the products you selected is not valid. Please recheck and try again"
+
+msgid "ErrorInvoiceMissing"
+msgstr "The invoice was not found"
+
+msgid "ErrorIncomingInvalidStore"
+msgstr "Store must be specified"
+
+msgid "UserEmployeeRolesUpdated"
+msgstr "The roles of the user were updated successfully"
+
+msgid "ErrorIncomingInvoiceNoItems"
+msgstr "You must specify the items to process"
+
+msgid "ErrorIncomingInvoiceErrorAddingItems"
+msgstr "There was an error registering the items; changes are being rolled-back now"
+
+msgid "ErrorPhoneInvalidOptional"
+msgstr "If given, phone number must be between 10 and 13 digits long"
+
+msgid "ErrorEmailInvalidOptional"
+msgstr "If given, email must be valid format"
+
+msgid "SupplierAddOk"
+msgstr "The supplier was added successfully"
+
+msgid "ErrorSupplierAddError"
+msgstr "There was an error adding the supplier"
+
+msgid "ErrorLogisticSupplierInvalidKind"
+msgstr "The specified supplier type is not valid"
+
+msgid "ErrorLogisticSupplierIDNotUnique"
+msgstr "The identification you entered already exists in the system"
+
+msgid "ErrorLogisticSupplierNameTooShort"
+msgstr "The name of the supplier must be at least %(min)s characters"
+
+msgid "ErrorIncomingInvoiceProcessedOn"
+msgstr "Processed on date must be provided"
+
+msgid "ErrorIncomingInvoiceProcessedOnFuture"
+msgstr "Processed on date cannot be in the future"
+
+msgid "ErrorIncomingInvoiceProcessedOnInvalid"
+msgstr "The processed on date is invalid"
+
+msgid "ErrorIncomingInvoiceInvalidSource"
+msgstr "A valid source must be selected"
+
+msgid "ErrorIncomingInvoiceInvalidProvider"
+msgstr "A valid provider of the items must be selected or be added"
+
+msgid "ErrorIncomingInvoiceExistingInternalReference"
+msgstr "The internal reference you specified exists already"
+
+msgid "ErrorIncomingInvoiceAddError"
+msgstr "There was an error when adding the incoming invoice. Please try again"
+
+msgid "EmailSubjectNewRequest"
+msgstr "New Request for Logistics Items Has Been Submitted"
+
+msgid "HRPublished"
+msgstr "Organizational structure has been published successfully"
+
+msgid "ErrorHRProfessionDeleteDepedencyData"
+msgstr "The profession could not be deleted because there are transactions that occured by employees working as one"
+
+msgid "ErrorHRHeadDeleteDepedencyData"
+msgstr "The head could not be removed from the organizational structure because transactions happened under it"
+
+msgid "ErrorHROfficeDeleteDepedencyData"
+msgstr "The office could not be removed from the organizational structure because transactions happened under it"
+
+msgid "HRHeadDeleteOk"
+msgstr "The head was deleted successfully"
+
+msgid "ErrorHRDepartmentDeleteDepedencyData"
+msgstr "The department could not be removed from the organizational structure because transactions happened under it"
+
+msgid "HRDepartmentDeleteOk"
+msgstr "The department was deleted successfully"
+
+msgid "ErrorHRDivisionDeleteDepedencyData"
+msgstr "The division could not be removed from the organizational structure because transactions happened under it"
+
+msgid "HRDivisionDeleteOk"
+msgstr "The division was deleted successfully"
+
+msgid "ErrorHRUnitDeleteDepedencyData"
+msgstr "The unit could not be removed from the organizational structure because transactions happened under it"
+
+msgid "HRUnitDeleteOk"
+msgstr "The unit was deleted successfuly"
+
+msgid "ErrorInventoryCategoryAssetCodeExists"
+msgstr "If given, the asset code must be unique"
+
+msgid "UserRegisteredSuccessfully"
+msgstr "The user was registered successfully"
+
+msgid "ErrorEmpRegisterHRInvalidUnit"
+msgstr "The unit you selected is invalid"
+
+msgid "InventoryProductDeleteOk"
+msgstr "The product was deleted successfully"
+
+msgid "ErrorInventoryAssetCodeExists"
+msgstr "There is already a product with the asset code you entered"
+
+msgid "ErrorInventoryDeleteStoreContainsItems"
+msgstr "The store could not be deleted because it contains items"
+
+msgid "InventoryStoreDeleteOk"
+msgstr "The store was deleted successfully"
+
+msgid "ErrorInventoryDeleteStoreContainsOutgoingHistory"
+msgstr "The store could not be deleted because items have been distributed from it, thus forming item history"
+
+msgid "ErrorInventoryDeleteStoreContainsReturnHistory"
+msgstr "The store could not be deleted because items have been returned to it, thus forming item history"
+
+msgid "ErrorInventoryDeleteItemsExists"
+msgstr "The inventory could not be deleted because there are items registered for it"
+
+msgid "InventoryDeleteCategory"
+msgstr "The category was deleted successfully"
+
+msgid "ErrorInventoryProductCategoryNotFound"
+msgstr "The category of the product you requested was not found"
+
+msgid "ErrorEmpRegisterHRInvalidDivision"
+msgstr "The division you selected is invalid"
+
+msgid "ErrorEmpRegisterHRInvalidDept"
+msgstr "The department you selected is invalid"
+
+msgid "ErrorUserEmployeeRoleCantRemove"
+msgstr "Employee is a built-in role that cannot be removed"
+
+msgid "UserRoleDeleted"
+msgstr "The role was removed successfully"
+
+msgid "ErrorUserRoleRemoveNotFound"
+msgstr "The requested role of the user was not found"
+
+msgid "ErrorUserEmployeeRoleExistsAlready"
+msgstr "The role exists already for the employee"
+
+msgid "UserEmployeeRoleAdded"
+msgstr "The role was assigned successfully. Employee should logout and login again for the changes to take effect"
+
+msgid "ErrorUserEmployeeRoleAdd"
+msgstr "There was an error when adding the employee"
+
+msgid "ErrorUserorRoleMissing"
+msgstr "Either the role or the user cannot be found"
+
+msgid "ErrorUserStripAllRolesNoneFound"
+msgstr "The user does not appear to have any roles"
+
+msgid "ErrorUserEmployeeRoleCantAdd"
+msgstr "All users have employee power. If the user does not have employee role, there is a breakdown in the system that requires attention"
+
+msgid "ErrorEmpRegisterHRInvalidHead"
+msgstr "The head you selected is invalid"
+
+msgid "ErrorEmpRegisterHRInvalidJob"
+msgstr "The job you have specified is invalid"
+
+msgid "ErrorEmpRegistrationHRMissing"
+msgstr "You must specify a valid working place of the employee"
+
+msgid "ErrorHROfficeMissing"
+msgstr "You must select a valid location for the office"
+
+msgid "HRErrorOfficeExists"
+msgstr "An office with the name you entered exists already"
+
+msgid "HRErrorofficeMissing"
+msgstr "The office could not be found"
+
+msgid "HROfficeUpdateOk"
+msgstr "Office information was updated successfully"
+
+msgid "HROfficeDeleteOk"
+msgstr "Office information was deleted successfully"
+
+msgid "HROfficeAddedOk"
+msgstr "The office was added successfully"
+
+msgid "HRErrorOfficeAdding"
+msgstr "There was an error when adding the office. Please try again"
+
+msgid "ErrorUserRegistration"
+msgstr "There was an error registering the user. Please try again"
+
+msgid "ErrorEmpRegisterInvalidEmail"
+msgstr "Please provide a valid email address"
+
+msgid "ErrorEmpRegisterPhoneNumberShort"
+msgstr "Phone number must be exactly %(exact)s digits long"
+
+msgid "ErrorEmpRegisterOfficePhoneNumberShort"
+msgstr "If given, Office Phone number must be exactly %(exact)s digits long"
+
+msgid "ErrorEmpRegisterPhoneNumberExists"
+msgstr "The phone number you entered exists already"
+
+msgid "ErrorEmpRegisterInvalidTitle"
+msgstr "You must select a valid employee title"
+
+msgid "ErrorEmpRegisterShortIDCardNumber"
+msgstr "The national ID card number must be %(min)s digits long"
+
+msgid "ErrorEmpRegisterEmailExists"
+msgstr "The email address you have provided exists already"
+
+msgid "ErrorRegisterUserEmployeeGroupMissing"
+msgstr "Registration cannot proceed without Employee group defined in the super administrator zone"
+
+msgid "ErrorEmpRegisterIDCardExists"
+msgstr "The ID Card %(idcard)s you entered exists"
+
+msgid "ErrorEmpRegisterFirstNameTooShort"
+msgstr "First name must be at least %(min)s characters long"
+
+msgid "ErrorEmpRegisterLastNameTooShort"
+msgstr "Last name must be at least %(min)s characters long"
+
+msgid "ErrorEmpRegisterInvalidGender"
+msgstr "The gender you have specified is invalid"
+
+msgid "UserPasswordResetted"
+msgstr "The password was resetted and emailed to the user to %(email)s"
+
+msgid "EmailSubjectUserPasswordResetted"
+msgstr "Your Password for RLRC was changed"
+
+msgid "ErrorUserStripGroupNotMissing"
+msgstr "The user could not be found"
+
+msgid "RolesStripOK"
+msgstr "The roles of the user were stripped"
+
+msgid "UserDeactivatedOk"
+msgstr "The user was deactivated successfully and tokens deleted"
+
+msgid "UserActivatedOk"
+msgstr "The user was activated successfully"
+
+msgid "ErrorUserMissing"
+msgstr "The user could not be found"
+
+msgid "ErrorUserDeletionDepedencyIncomingInvoice"
+msgstr "The user could not be deleted because the account was used to register incoming invoices"
+
+msgid "ErrorUserDeletionDependencyOutgoingInvoice"
+msgstr "The user could not be deleted because the employee has a history of returning items"
+
+msgid "ErrorUserDeletionDepedencyInStoreItems"
+msgstr "The user could not be deleted because the user has a history of stocking items in store"
+
+msgid "ErrorUserDeletionDependencyIncomingItem"
+msgstr "The user could not deleted because the employee has a history of adding or appending master items"
+
+msgid "ErrorUserDeletionDependencyReturnInvoice"
+msgstr "The user could not be deleted because the employee has a history of returning items"
+
+msgid "ErrorUserDeletionDepedencyProvider"
+msgstr "The user could not be deleted because the user has a history of registering suppliers"
+
+msgid "ErrorUserDeletionDependencyRegEmployee"
+msgstr "The user could not be deleted because the user has a history of registering or appending employee information to the system"
+
+msgid "ErrorUserDeletionDependencyOrgStructure"
+msgstr "The user could not be deleted because the user has a history of registering or appending organizational structure information"
+
+msgid "ErrorUserDeletionDependencyTranslation"
+msgstr "The user could not be deleted because the user has participated in one or more content translation"
+
+msgid "ErrorUserDeleteMissing"
+msgstr "The user you want to delete could be found or is already deleted"
+
+msgid "UserDeleted"
+msgstr "The user was deleted successfully"
+
+msgid "InventoryCategory"
+msgstr "Inventory Category"
+
+msgid "InventoryProduct"
+msgstr "Inventory Product"
+
+msgid "InventoryManufacturer"
+msgstr "Inventory Manufacturer"
+
+msgid "InventoryBrand"
+msgstr "Inventory Brand"
+
+msgid "InventoryStore"
+msgstr "Inventory Store"
+
+msgid "ErrorInventoryCategoryNameShort"
+msgstr "The name of the category must be at least %(min)s characters long"
+
+msgid "ErrorInventoryCategoryNameExists"
+msgstr "A category exists with the name you entered"
+
+msgid "ErrorInventoryCategoryKindInvalid"
+msgstr "You must specify a valid type for the category"
+
+msgid "InventoryCategoryAddOk"
+msgstr "The category was added successfully"
+
+msgid "EmailForgtPassword"
+msgstr "RLRC Logistics: Forgot Password"
+
+msgid "ErrorInventoryCategoryAddError"
+msgstr "There was an error adding the category"
+
+msgid "ErrorInventoryCategoryNotFound"
+msgstr "The category you wanted does not exist in the system"
+
+msgid "ErrorInventoryProductNameShort"
+msgstr "The product name must be at least %(min)s characters"
+
+msgid "InventoryProductAddOk"
+msgstr "The product was added successfully"
+
+msgid "ErrorInventoryProductAddError"
+msgstr "There was an error adding the product. Please try again"
+
+msgid "ErrorInventoryProductInvalidCategory"
+msgstr "The category is invalid or active"
+
+msgid "ErrorInventoryProductInvalidMeasurement"
+msgstr "Select a valid measurement unit"
+
+msgid "ErrorInventoryProductInvalidKind"
+msgstr "You must select a valid kind for the product"
+
+msgid "InventoryProductUpdateOk"
+msgstr "The product was updated successfully"
+
+msgid "ErrorInventoryProductNotFound"
+msgstr "The product was not found"
+
+msgid "ErrorInventoryProductNameExists"
+msgstr "There is a product named %(product_name)s for the category %(cat_name)s"
+
+msgid "InventoryCategoryUpdateOk"
+msgstr "The category was updated successfully"
+
+msgid "ErrorInventoryBrandNameShort"
+msgstr "The name of a brand must be at least %(min)s characters long"
+
+msgid "InventoryBrandAddedSuccessfully"
+msgstr "The brand was registered successfully"
+
+msgid "ErrorInventoryBrandAddError"
+msgstr "There was an error when adding the brand. Please try again"
+
+msgid "InventoryBrandUpdateOk"
+msgstr "The brand was updated successfully"
+
+msgid "InPossession"
+msgstr "In Possession"
+
+msgid "Returned"
+msgstr "Returned"
+
+msgid "ErrorInventoryBrandNameExists"
+msgstr "There is already a brand name with the new name you entered"
+
+msgid "ErrorInventoryBrandNotFound"
+msgstr "The brand could not be found"
+
+msgid "InventoryManufactrerAddedSuccessfully"
+msgstr "The manufacturer was added successfully"
+
+msgid "ErrorInventoryManufactrerAddError"
+msgstr "There was an error adding the manufacturer. Please try again"
+
+msgid "InventoryManufactrerUpdateOk"
+msgstr "The manufacturer was updated successfully"
+
+msgid "ErrorInventoryManufactrerNotFound"
+msgstr "The manufacturer you requested could not be found"
+
+msgid "ErrorInventoryManfNameShort"
+msgstr "Name of a manufacturer must be at least %(min)s characters long"
+
+msgid "ErrorInventoryManNameExists"
+msgstr "A manufacturer exists with the new name you entered"
+
+msgid "StoreIn"
+msgstr "Reserveration Only Store"
+
+msgid "ErrorInvalidItems"
+msgstr "The items you checked are invalid or you did not check any"
+
+msgid "StoreInOut"
+msgstr "Distribution and Storage Store"
+
+msgid "ErrorInventoryStoreNameShort"
+msgstr "Store name must be at least %(min)s characters long"
+
+msgid "ErrorInventoryStoreNameExists"
+msgstr "There is a store with the name you entered"
+
+msgid "ErrorInventoryStoreInvalidKind"
+msgstr "You must select store kind"
+
+msgid "InventoryStoreAddOk"
+msgstr "The store was registered successfully"
+
+msgid "ErrorInventoryStoreAddError"
+msgstr "There was an error adding the store. Please try again"
+
+msgid "ErrorInventoryStoreNotFound"
+msgstr "The store was not found"
+
+msgid "InventoryStoreUpdateOk"
+msgstr "The store was updated successfully"
+
+msgid "Funded"
+msgstr "Funded"
+
+msgid "Purchased"
+msgstr "Purchased"
+
+msgid "Shop"
+msgstr "Shop"
+
+msgid "NGO"
+msgstr "NGO"
+
+msgid "Hospital"
+msgstr "Hospital"
+
+msgid "Governmental"
+msgstr "Governmental"
+
+msgid "Individual"
+msgstr "Individual"
+
+msgid "Educational"
+msgstr "Educational"
+
+msgid "Lost"
+msgstr "Lost"
+
+msgid "New"
+msgstr "New"
+
+msgid "Used"
+msgstr "Used"
+
+msgid "Defective"
+msgstr "Defective"
+
+msgid "Disfunctional"
+msgstr "Disfunctional"
+
+msgid "NotApplicable"
+msgstr "Not Applicable"
+
+msgid "InstitutionInformation"
+msgstr "Institution Information"
+
+msgid "OwnerInformation"
+msgstr "Owner Information"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "Kg"
+msgstr "Kg"
+
+msgid "Ltr"
+msgstr "Ltr"
+
+msgid "Pc"
+msgstr "Pc"
+
+msgid "ChangeEmail"
+msgstr "Change Email"
+
+msgid "ChangePwd"
+msgstr "Change Password"
+
+msgid "Unknown"
+msgstr "Unknown"
+
+msgid "Consumable"
+msgstr "Consumable"
+
+msgid "NonConsumable"
+msgstr "Non-consumable"
+
+msgid "DAF"
+msgstr "DAF"
+
+msgid "LogisticSpecialist"
+msgstr "Logistic Specialist"
+
+msgid "Administrator"
+msgstr "Administrator"
+
+msgid "Mr"
+msgstr "Mr"
+
+msgid "Mrs"
+msgstr "Mrs"
+
+msgid "Miss"
+msgstr "Miss"
+
+msgid "Dr"
+msgstr "Dr"
+
+msgid "Eng"
+msgstr "Eng"
+
+msgid "Auditor"
+msgstr "Auditor"
+
+msgid "Employee"
+msgstr "Employee"
+
+msgid "LogisticOfficer"
+msgstr "LogisticOfficer"
+
+msgid "DAFOfficer"
+msgstr "DAFOfficer"
+
+msgid "Manager"
+msgstr "Manager"
+
+msgid "NoRight"
+msgstr "You have no right to view the resource"
+
+msgid "ErrorGenericInvalidActiveState"
+msgstr "Active state must be Yes or No only"
+
+msgid "ErrorGenericInvalidCharacters"
+msgstr "You have used one of the following invalid sysmbols in the %(field_name)s : %(chars)s"
+
+msgid "ErrorHRHeadNameShort"
+msgstr "Name of head must be at least %(min)s characters long"
+
+msgid "ErrorHRHeadNameExists"
+msgstr "A Head exists with the same name"
+
+msgid "HRHeadAddOk"
+msgstr "The Head was successfully registered"
+
+msgid "ErrorHRHeadAddError"
+msgstr "There was an error when registering the head. Please try again or report the problem to the IT Officer"
+
+msgid "ErrorHRHeadNotFound"
+msgstr "The Head you requested does not exist"
+
+msgid "HRHeadUpdateOk"
+msgstr "Head information updated successfully"
+
+msgid "ErrorHRDepartmentNameShort"
+msgstr "Name of department must be at least %(min)s characters long"
+
+msgid "ErrorHRDepartmentInvalidHead"
+msgstr "The head of the department is invalid or does not exist"
+
+msgid "ErrorHRDepartmentNameExists"
+msgstr "There is already a department named %(dept_name)s in the head %(head_name)s"
+
+msgid "HRDepartmentAddOk"
+msgstr "The department was added successfully"
+
+msgid "ErrorHRDepartmentAddError"
+msgstr "There was an error when adding the department"
+
+msgid "HRDepartmentUpdateOk"
+msgstr "The department information was updated successfully"
+
+msgid "ErrorHRDepartmentNotFound"
+msgstr "There was an error when updating information of the department"
+
+msgid "ErrorHRDepartmentDelete"
+msgstr "The department could not be found or deleted as there are HR entities under it or employees. Please clear the bottom entities and climb your way up"
+
+msgid "ErrorHRHeadDelete"
+msgstr "The head could not be found or deleted as there are HR entities under it or employees. Please clear the bottom entities and climb your way up"
+
+msgid "ErrorHRDivisionDelete"
+msgstr "The division could not be found or deleted as there are HR entities under it or employees. Please clear the bottom entities and climb your way up"
+
+
+msgid "ErrorHRUnitDelete"
+msgstr "The unit could not be found or deleted as there are HR entities under it or employees. Please clear the bottom entities and climb your way up"
+
+msgid "ErrorHROfficeDelete"
+msgstr "The head could not be found or deleted as there are HR entities under it or employees. Please clear the bottom entities and climb your way up"
+
+
+
+msgid "ErrorHRDivisionNameShort"
+msgstr "Name of division must be at least %(min)s characters long"
+
+msgid "ErrorHRDivisionInvalidDepartment"
+msgstr "The department of the division is invalid or does not exist"
+
+msgid "ErrorHRDivisionNameExists"
+msgstr "There is a division named %(division_name)s in %(dept_name)s department"
+
+msgid "HRDivisionAddOk"
+msgstr "The division was added successfully"
+
+msgid "ErrorHRDivisionAddError"
+msgstr "There was an error adding the division; please try again"
+
+msgid "HRDivisionUpdateOk"
+msgstr "The information of the division was updated successfully"
+
+msgid "ErrorHRDivisionNotFound"
+msgstr "The division you requested could not be found"
+
+msgid "HRUnitAddOk"
+msgstr "The unit was added successfully"
+
+msgid "ErrorHRUnitAddError"
+msgstr "There was an error adding the unit. Please try again"
+
+msgid "ErrorHRUnitNameShort"
+msgstr "Name of unit must be at least %(min)s characters long"
+
+msgid "ErrorHRUnitInvalidDivision"
+msgstr "The division of the unit is invalid or does not exist"
+
+msgid "ErrorHRUnitNameExists"
+msgstr "There is a unit named %(unit_name)s in %(division_name)s division"
+
+msgid "HRUnitUpdateOk"
+msgstr "The unit was updated successfully"
+
+msgid "ErrorHRUnitNotFound"
+msgstr "There was an error adding the divsion; please try again"
+
+msgid "ErrorHRProfessionNameShort"
+msgstr "Name of a profession must be at least %(min)s characters long"
+
+msgid "ErrorHRProfessionNameExists"
+msgstr "The profession exists already"
+
+msgid "HRProfessionAddOk"
+msgstr "The profession was added successfully"
+
+msgid "ErrorHRProfessionAddError"
+msgstr "There was an error adding the profession; please try again"
+
+msgid "HRProfessionUpdateOk"
+msgstr "The profession was updated successfully"
+
+msgid "ErrorHRProfessionNotFound"
+msgstr "The profession you requested does not exist"
+
+msgid "ErrorHRProfessionDeletePositionsExist"
+msgstr "The profession could not be deleted because it is registered as profession for employees"
+
+msgid "HRProfessionDeleteOk"
+msgstr "The profession was deleted successfully"
+
+msgid "TranslationAddeOk"
+msgstr "The translation was added successful"
+
+msgid "ErrorTranslationAdding"
+msgstr "There was an error adding the translation. Please try again"
+
+msgid "TranslationDeleteOk"
+msgstr "The translation was deleted successfully"
+
+msgid "ErrorTranslationMissing"
+msgstr "The translation could not be found"
+
+msgid "ErrorTranslationNameTooShort"
+msgstr "The translation name must be at least %(min)s characters long"
+
+msgid "ErrorTranslationSourceMissing"
+msgstr "The source of the translation could not be found"
+
+msgid "ErrorTranslationExistsAlready"
+msgstr "The translation exists already"
+
+msgid "TranslationUpdatedSuccessfully"
+msgstr "The translation was updated successfully"
+
+msgid "ErrorTranslatingMissingSource"
+msgstr "There was an error adding the translation. It is caused probably by a missing data to translate"
+
+msgid "TranslationNoChange"
+msgstr "There was no change in the translation"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "InvalidPath"
+msgstr "Please follow a valid path"
